@@ -1,0 +1,21 @@
+Index: app/src/main/java/com/giyo/android/test1/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/giyo/android/test1/MainActivity.java	(revision )
++++ app/src/main/java/com/giyo/android/test1/MainActivity.java	(revision )
+@@ -0,0 +1,13 @@
++package com.giyo.android.test1;
++
++import android.support.v7.app.AppCompatActivity;
++import android.os.Bundle;
++
++public class MainActivity extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main);
++    }
++}
